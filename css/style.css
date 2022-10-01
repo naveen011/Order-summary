@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+  --paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+.*{
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  padding: 0;
+  border:0;
+  align-content: center;
+}
+.bgimg{
+    background-color:hsl(225, 100%, 94%);
+    position: absolute;
+    width: 1440px;
+    height: 750px;
+    align-items: center;
+
+}
+.whitebg{
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border:0;
+  width: 450px;
+  height: 650px;
+  background-color: white;
+  position: relative;
+box-sizing: border-box;
+top:50px;
+padding-bottom: 250px;
+border-radius: 25px;
+}
+.whitebg .hp{
+  border-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.whitebg article h2{
+  align-contentS: center;
+}
+.whitebg article ul{
+  margin: 0;
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+margin-top: 2rem;
+}
+.whitebg article li h2{
+  margin: 0;
+  padding-right: 2rem;
+}
+.whitebg article img{
+  width: 65px;
+  height: 65px;
+  padding-right: 2rem;
+}
+.whitebg article a{
+  padding-right: 2rem;
+  margin-top: 15px;
+  color: blue;
+}
+
+.btn {
+  color: white;
+  margin-left: 115px;
+  margin-top: 15px;
+  padding-top: 5px;
+  align-items: center;
+  width: 200px;
+  height: 35px;
+  background: #000066;
+  background-image: -webkit-linear-gradient(top, #1648e0, #1541a6);
+  background-image: -moz-linear-gradient(top, #1648e0, #1541a6);
+  background-image: -ms-linear-gradient(top, #1648e0, #1541a6);
+  background-image: -o-linear-gradient(top, #1648e0, #1541a6);
+  background-image: linear-gradient(to bottom, #1648e0, #1541a6);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 20px 10px 20px;
+  text-decoration: none;
+}
+.line{
+  margin-top: 2rem;
+  font-size: 16px;
+  color: grey;
+}
+.whitebg .gg{
+  font-size: 16px;
+  color: grey;
+}
+
+
+
+
+@media(min-width:350px) {
+  .whitebg{
+margin: auto;
+}
+}
